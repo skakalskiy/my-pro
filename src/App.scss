@@ -1,0 +1,35 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.ghost1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    z-index: 1;
+    border-radius: 3px;
+}

@@ -1,0 +1,56 @@
+
+.wrapper1 {
+   max-width: 1366px;
+   margin: auto;
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+
+    .life {
+        background-color: #140b23;
+        padding: 50px 10px;
+        width: 683px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border: 1px solid rebeccapurple;
+        font-size: 30px;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+        cursor: pointer;
+        
+        
+    
+        p {
+            padding-top: 1rem;
+            line-height: 150%;
+            opacity: .7;
+            letter-spacing: 3px;
+           
+        }
+    }
+}
+.modal-win {
+    width: 900px;
+    height: 700px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 40px;
+    padding: 15px 10px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+
+}
+

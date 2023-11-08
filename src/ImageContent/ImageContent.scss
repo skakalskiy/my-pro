@@ -1,0 +1,42 @@
+.imageContent {
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding: 50px 0;
+
+    .title {
+        font-size: 30px;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+    }
+
+        .img-container {
+            display: flex ;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+
+                .half1 {
+                    display: block;
+                    align-items: center;
+                    
+                   }
+
+                .paris {
+                    margin: 20px;
+                }
+        }
+    
+}
+
+img {
+    cursor: grab;
+}
